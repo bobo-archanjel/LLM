@@ -32,9 +32,10 @@ Tento repozitár obsahuje prototyp Unity projektu, v ktorom sú integrované ve�
 
 ## Implementácia skriptov
 
-### 1. NPCChat.cs
+### 1. NPCChat.cs, ChatUI.cs
 
-- Priradiť k objektu NPC
+- `NPCChat.cs`: Priradiť k objektu NPC
+- `ChatUI.cs`: Vytvoriť UI Panel a vložiť skript `ChatUI.cs`, do vnútra vytvoriť InputField, Button a TMP Text. Na Button nastaviť OnClick() event a priradiť `ChatUI.cs` a nastaviť ChatUI.OnSendButtonClicked
 
 ### 2. Quest.cs, QuestManager.cs, QuestUI.cs
 
